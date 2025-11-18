@@ -1,73 +1,51 @@
 ---
-name: api-testing
-description: Master REST API testing, GraphQL testing, request/response validation, API automation.
+name: rest-api-testing
+description: Master REST API testing, HTTP methods, response validation, and API test automation.
 ---
 
-# API Testing & Validation
+# REST API Testing
 
-## Quick Start - Supertest
+## REST API Basics
 
-```javascript
-const request = require('supertest');
-const app = require('./app');
+```bash
+# GET request
+curl -X GET https://api.example.com/users
 
-describe('GET /api/users', () => {
-  it('should return all users', async () => {
-    const res = await request(app)
-      .get('/api/users')
-      .expect(200)
-      .expect('Content-Type', /json/);
+# POST request
+curl -X POST https://api.example.com/users \
+  -H "Content-Type: application/json" \
+  -d '{"name":"John"}'
 
-    expect(Array.isArray(res.body)).toBe(true);
-  });
-});
+# PUT request
+curl -X PUT https://api.example.com/users/1 \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Jane"}'
 ```
 
-## API Testing Tools
+## API Testing Checklist
 
-### REST API
-- **Postman**: GUI + automation
-- **REST Assured**: Java API testing
-- **Supertest**: Node.js testing
-- **Pytest + requests**: Python testing
+✅ HTTP status codes (200, 201, 400, 404, 500)
+✅ Response structure
+✅ Data types
+✅ Field presence
+✅ Error messages
+✅ Headers
+✅ Authentication
+✅ Authorization
 
-### GraphQL
-- Apollo Client testing
-- GraphQL query validation
-- Schema compliance testing
+## API Test Tools
 
-## Testing Aspects
-
-### Request Validation
-- Method correctness (GET, POST, etc)
-- Headers validation
-- Parameter validation
-- Request body structure
-
-### Response Validation
-- Status codes (200, 201, 400, 404, 500)
-- Response schema
-- Data types
-- Field presence
-- Error messages
-
-### Integration
-- Database state
-- External service calls
-- Message queue events
-- Cache behavior
+- Postman
+- REST Assured (Java)
+- Requests (Python)
+- Supertest (Node.js)
+- Thunder Client (VS Code)
 
 ## Best Practices
 
-✅ Test critical paths
-✅ Validate status codes
-✅ Check response schema
-✅ Mock external services
-✅ Use test data builders
-✅ Parallel execution
-✅ Document API changes
-✅ Monitor API performance
-
-## Related Skills
-- Integration & E2E Testing
-- Test Automation & CI/CD
+✅ Test all endpoints
+✅ Validate responses
+✅ Error handling
+✅ Authentication testing
+✅ Data validation
+✅ Performance checks

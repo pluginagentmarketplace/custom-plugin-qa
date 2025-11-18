@@ -1,99 +1,49 @@
 ---
-name: test-automation-cicd
-description: Master CI/CD integration, GitHub Actions, GitLab CI, Jenkins. Build continuous testing pipelines.
+name: selenium-webdriver
+description: Master Selenium WebDriver, browser automation, locators, waits, and automation framework design.
 ---
 
-# Test Automation & CI/CD
+# Selenium & WebDriver Automation
 
-## Quick Start - GitHub Actions
+## Selenium Basics
 
-```yaml
-name: Test Suite
-on: [push, pull_request]
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-      - run: npm install
-      - run: npm test -- --coverage
-      - run: npm run e2e
+driver = webdriver.Chrome()
+driver.get("https://example.com")
+element = driver.find_element(By.ID, "element-id")
+element.click()
+driver.quit()
 ```
 
-## CI/CD Platforms
+## Locator Strategies
+- ID: `find_element(By.ID, "id")`
+- CSS Selector: `find_element(By.CSS_SELECTOR, "selector")`
+- XPath: `find_element(By.XPATH, "xpath")`
+- Class: `find_element(By.CLASS_NAME, "class")`
 
-### GitHub Actions
-- Integrated with GitHub
-- Matrix builds
-- Secrets management
-- Reusable workflows
+## Waits
 
-### GitLab CI
-- GitLab-native
-- Runners (Docker, Kubernetes)
-- Artifact management
-- Environment-specific jobs
+### Implicit Wait
+```python
+driver.implicitly_wait(10)
+```
 
-### Jenkins
-- Self-hosted
-- Extensive plugins
-- Pipeline as Code
-- Distributed builds
-
-## Pipeline Stages
-
-### 1. Trigger
-- Commit push
-- Pull request
-- Scheduled runs
-- Manual trigger
-
-### 2. Build
-- Code compilation
-- Dependency resolution
-- Artifact creation
-
-### 3. Test
-- Unit tests
-- Integration tests
-- Code quality checks
-- Security scanning
-
-### 4. Deploy
-- Staging deployment
-- Production deployment
-- Smoke tests
-- Rollback capability
+### Explicit Wait
+```python
+from selenium.webdriver.support.ui import WebDriverWait
+wait = WebDriverWait(driver, 10)
+element = wait.until(EC.presence_of_element_located((By.ID, "id")))
+```
 
 ## Best Practices
 
-✅ Fast feedback loop
+✅ Use explicit waits
+✅ Unique, stable locators
+✅ Page Object Model
+✅ Error handling
+✅ Screenshots on failure
 ✅ Parallel execution
-✅ Clear failure messages
-✅ Artifact management
-✅ Environment separation
-✅ Deployment automation
-✅ Monitoring integration
-✅ Documentation
-
-## Test Execution
-
-```
-Unit Tests (fast)
-↓
-Integration Tests
-↓
-E2E Tests
-↓
-Performance Tests
-↓
-Security Tests
-```
-
-## Related Skills
-- Test Automation & CI/CD
-- Quality Metrics & Reporting
+✅ Maintenance focus

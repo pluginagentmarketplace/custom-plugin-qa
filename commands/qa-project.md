@@ -1,76 +1,48 @@
 # QA Projects: Hands-On Learning
 
-20+ QA projects to master testing and automation.
+25+ hands-on QA projects from beginner to advanced.
 
-## Beginner Projects (1-7)
+## Beginner Projects (1-8)
 
-1. **Unit Test Suite** - Jest basics, calculator app
-2. **API Testing** - REST API with Supertest
-3. **E2E Test** - Cypress login flow
-4. **Todo App Testing** - Full test coverage
-5. **Performance Test** - k6 load test setup
-6. **CI/CD Pipeline** - GitHub Actions workflow
-7. **Test Data Builder** - Factory pattern for tests
+1. Manual test case design
+2. Bug reporting practice
+3. Selenium first automation
+4. API testing with Postman
+5. Exploratory testing session
+6. Test documentation
+7. CI/CD first setup
+8. Performance baseline
 
-## Intermediate Projects (8-14)
+## Intermediate Projects (9-16)
 
-8. **E-commerce API Tests** - Complex API scenarios
-9. **Multi-browser E2E** - Playwright cross-browser
-10. **Load Testing Suite** - JMeter performance tests
-11. **Security Testing** - OWASP validation
-12. **Automation Framework** - Page Object Model
-13. **Test Reporting** - Dashboard creation
-14. **Flaky Test Fixes** - Reliability improvement
+9. Cypress automation framework
+10. API automation suite
+11. Load testing (JMeter)
+12. GitHub Actions pipeline
+13. Mobile app testing (Appium)
+14. GraphQL API testing
+15. Security testing (OWASP)
+16. Metrics dashboard
 
-## Advanced Projects (15-20)
+## Advanced Projects (17-25)
 
-15. **Continuous Testing** - Full CI/CD pipeline
-16. **Distributed Testing** - Parallel execution
-17. **API Contract Testing** - Provider & consumer
-18. **Performance Baseline** - Metrics & monitoring
-19. **Security Compliance** - Full OWASP testing
-20. **Advanced Metrics** - KPI dashboard
+17. Advanced test framework
+18. Multi-browser E2E
+19. Performance optimization
+20. CI/CD with all test types
+21. Security compliance testing
+22. Team training program
+23. QA process design
+24. Enterprise framework
+25. Advanced metrics system
 
-## Project Template
+## How to Start
 
-### Setup
-```bash
-git clone <project>
-npm install
-npm test
-```
+1. Choose project
+2. Read requirements
+3. Set up environment
+4. Complete exercises
+5. Verify results
+6. Document learnings
 
-### Requirements
-- Clear test objectives
-- Test data provided
-- Expected results documented
-- Multiple test levels
-
-### Completion
-- All tests passing
-- Coverage target met
-- Documentation complete
-- Results reported
-
-## Learning Outcomes
-
-✅ Master test frameworks
-✅ Build test automation
-✅ Implement CI/CD
-✅ Performance testing
-✅ Security validation
-✅ Quality metrics
-
-## Prerequisites
-
-- Basic programming knowledge
-- Understanding of web applications
-- Familiarity with command line
-- Patience for test automation
-
-## Resources
-
-- Official documentation
-- Code samples
-- Video tutorials
-- Community forums
+Use `/qa-roadmap` for structured learning!

@@ -1,188 +1,77 @@
-# Custom Plugin QA System
+# Custom Plugin QA
 
-🚀 **Enterprise QA Testing Plugin** - 7 agents, test automation, quality strategies, security & compliance testing, 20+ projects.
+🚀 **QA Engineer Learning & Practice Plugin**
 
-## 🎯 Quick Start
+7 specialized agents, 16 skills, test automation, API testing, performance testing, CI/CD integration, 25+ hands-on projects.
 
-```bash
-/test-strategy       # QA planning & strategy
-/testing-guide       # Frameworks & best practices
-/qa-project          # 20+ hands-on projects
-/quality-metrics     # KPIs & dashboards
-```
-
-## 📦 What's Inside
-
-### 7 QA Agents
-1. **Test Strategy & Planning** - QA approach, coverage, test design
-2. **Unit Testing & Frameworks** - Jest, Vitest, Pytest, TDD
-3. **Integration & E2E Testing** - Cypress, Playwright, API testing
-4. **Performance & Load Testing** - k6, JMeter, benchmarking
-5. **Security Testing & Compliance** - OWASP, vulnerability scanning
-6. **Test Automation & CI/CD** - GitHub Actions, GitLab CI, Jenkins
-7. **Quality Metrics & Reporting** - KPIs, dashboards, trend analysis
-
-### 7 Skills
-- Unit Testing Frameworks
-- API Testing & Validation
-- E2E Testing Automation
-- Performance & Load Testing
-- Security Testing & OWASP
-- Test Automation & CI/CD
-- Quality Metrics & Reporting
-
-### 4 Commands
-- `/test-strategy` - QA planning guide
-- `/testing-guide` - Framework selection & implementation
-- `/qa-project` - Project browser (20+ projects)
-- `/quality-metrics` - Metrics, KPIs, dashboards
-
-### 20+ Projects
-- Unit testing projects
-- API automation
-- E2E test suites
-- Performance testing
-- Security validation
-- CI/CD pipelines
-- Advanced automation frameworks
-
-## 💡 Learning Paths
-
-### 🟢 Beginner (2-4 weeks)
-- Unit testing basics (Jest/Vitest)
-- API testing fundamentals
-- Basic E2E tests (Cypress)
-
-### 🟡 Intermediate (4-8 weeks)
-- Advanced unit testing patterns
-- Complex API scenarios
-- Multi-browser E2E
-- Performance testing basics
-- CI/CD integration
-
-### 🔴 Advanced (8-12 weeks)
-- Test architecture design
-- Performance optimization
-- Security testing mastery
-- Continuous testing pipelines
-- Enterprise metrics
-
-## 🔥 Key Features
-
-✅ **7 Specialized Agents** - Focused QA guidance
-✅ **Test Frameworks** - Jest, Cypress, Playwright, k6, JMeter
-✅ **Best Practices** - Industry standards, patterns, techniques
-✅ **Automation Ready** - CI/CD integration, continuous testing
-✅ **Security First** - OWASP, vulnerability testing, compliance
-✅ **Metrics-Driven** - KPIs, dashboards, trend analysis
-✅ **20+ Projects** - Hands-on learning from beginner to expert
-✅ **Production Ready** - Enterprise-grade patterns
-
-## 📊 Content Structure
-
-```
-├── agents/                      (7 QA specialists)
-├── skills/                      (7 detailed skill modules)
-│   ├── unit-testing/
-│   ├── api-testing/
-│   ├── e2e-testing/
-│   ├── performance-testing/
-│   ├── security-testing/
-│   ├── test-automation/
-│   └── quality-metrics/
-├── commands/                    (4 main commands)
-├── .claude-plugin/plugin.json   (manifest)
-└── README.md
-```
-
-## 🎓 Getting Started
+## Quick Start
 
 ```bash
-# View QA strategies
-/test-strategy
-
-# Learn testing frameworks
-/testing-guide
-
-# Start a project
-/qa-project
-
-# Track quality metrics
-/quality-metrics
+/qa-strategy       # QA planning guidance
+/qa-tools          # Tool selection
+/qa-project        # 25+ projects
+/qa-roadmap        # Learning path
 ```
 
-## 🛠️ Technologies Covered
+## 7 QA Agents
 
-### Testing Frameworks
-- Jest, Vitest, Mocha
-- Pytest, unittest
-- JUnit, TestNG
-- Cypress, Playwright, Selenium
+1. **QA Fundamentals** - Test types, methodology, planning
+2. **Manual Testing** - Execution, design, exploration
+3. **Test Automation** - Selenium, Cypress, Playwright, Appium
+4. **API Testing** - REST, GraphQL, automation
+5. **Performance Testing** - Load, stress, profiling
+6. **CI/CD & DevOps** - Pipelines, continuous testing
+7. **Advanced QA** - Security, metrics, team management
 
-### Performance Tools
-- k6, JMeter, Locust
-- Gatling, Apache Bench
+## 16 Skills
 
-### CI/CD Platforms
-- GitHub Actions
-- GitLab CI/CD
-- Jenkins
-- CircleCI, Travis CI
+✅ QA Fundamentals & Methodologies
+✅ Test Case Design & Planning
+✅ Bug Management & Reporting
+✅ Manual Testing Execution
+✅ Exploratory Testing
+✅ Selenium & WebDriver
+✅ Cypress & Playwright
+✅ Mobile Testing (Appium)
+✅ REST API Testing
+✅ GraphQL API Testing
+✅ Load & Performance Testing
+✅ Performance Profiling
+✅ CI/CD Pipeline Integration
+✅ Continuous Testing Practices
+✅ Security Testing & OWASP
+✅ QA Metrics & Reporting
 
-### Security Tools
-- OWASP ZAP
-- Burp Suite
-- SonarQube
-- Dependency scanning
+## Learning Path
 
-### Metrics & Reporting
-- SonarQube
-- Jenkins Dashboard
-- Grafana
-- Custom tools
+**Beginner** (4-6 weeks)
+- QA Fundamentals
+- Manual Testing
+- Test Design
 
-## 📈 Success Metrics
+**Intermediate** (6-8 weeks)
+- Test Automation
+- API Testing
+- Basic Performance
 
-After completing this plugin, you'll achieve:
+**Advanced** (6-8 weeks)
+- Advanced Frameworks
+- Full CI/CD
+- Security & Metrics
 
-✅ 80%+ code coverage
-✅ Automated test suite
-✅ CI/CD integration
-✅ Quality dashboards
-✅ Security validation
-✅ Performance monitoring
-✅ Enterprise-grade QA processes
+**Expert** (4-6 weeks)
+- Leadership
+- Advanced Topics
+- Process Design
 
-## 🌟 Why This Plugin?
+**Total: 6-12 months**
 
-🎯 **Complete QA Coverage**
-- All testing types covered
-- Strategy to execution
-- Metrics to improvement
+## 25+ Projects
 
-🚀 **Modern & Practical**
-- Latest frameworks
-- Real-world projects
-- Industry best practices
+From manual testing basics to advanced QA frameworks.
 
-📚 **Comprehensive Content**
-- 500+ hours learning
-- 100+ code examples
-- 20+ projects
+## License
 
-🔒 **Security & Compliance**
-- OWASP Top 10
-- Compliance testing
-- Security validation
+MIT
 
-## 📝 Version
-
-- **Version**: 1.0.0
-- **Status**: Production Ready
-- **License**: MIT
-- **Updated**: November 2024
-
----
-
-**Master QA testing and automation with this comprehensive, modern, enterprise-grade plugin!** 🎉
-
+Ready to master QA? Start with `/qa-strategy`! 🎯

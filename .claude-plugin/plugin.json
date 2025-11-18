@@ -1,136 +1,166 @@
 {
-  "name": "Custom Plugin QA System",
+  "name": "Custom Plugin QA",
   "version": "1.0.0",
-  "id": "claude-plugin-custom-qa",
-  "description": "Enterprise QA testing plugin. 7 agents, 7 skills, test automation, quality strategies, performance/security testing, 20+ projects.",
+  "id": "claude-plugin-qa",
+  "description": "QA Engineer Learning & Practice Plugin: 7 agents, 16 skills, test automation, API testing, performance testing, CI/CD, 25+ projects.",
   "author": "Claude Code QA Team",
   "license": "MIT",
-  "keywords": [
-    "qa",
-    "testing",
-    "automation",
-    "quality-assurance",
-    "test-frameworks",
-    "e2e-testing",
-    "api-testing",
-    "performance-testing",
-    "security-testing"
-  ],
+  "keywords": ["qa", "testing", "automation", "api-testing", "performance", "cicd"],
   "repository": {
     "type": "git",
     "url": "https://github.com/pluginagentmarketplace/custom-plugin-qa.git"
   },
   "agents": [
     {
-      "id": "test-strategy-agent",
-      "name": "Test Strategy & Planning",
-      "description": "Test planning, coverage analysis, test case design, QA strategy, and quality assurance methodologies.",
-      "file": "agents/01-test-strategy-planning.md"
+      "id": "qa-fundamentals-agent",
+      "name": "QA Fundamentals",
+      "description": "Test types, methodologies, planning, design, metrics, best practices",
+      "file": "agents/01-qa-fundamentals.md"
     },
     {
-      "id": "unit-testing-agent",
-      "name": "Unit Testing & Frameworks",
-      "description": "Jest, Vitest, Pytest. Mocking, fixtures, code coverage, TDD.",
-      "file": "agents/02-unit-testing-frameworks.md"
-    },
-    {
-      "id": "integration-e2e-agent",
-      "name": "Integration & E2E Testing",
-      "description": "API testing, integration testing, E2E (Cypress, Playwright), test automation.",
-      "file": "agents/03-integration-e2e-testing.md"
-    },
-    {
-      "id": "performance-agent",
-      "name": "Performance & Load Testing",
-      "description": "Load testing, stress testing, performance benchmarking, scalability validation.",
-      "file": "agents/04-performance-load-testing.md"
-    },
-    {
-      "id": "security-testing-agent",
-      "name": "Security Testing & Compliance",
-      "description": "Security testing, vulnerability scanning, OWASP, compliance testing.",
-      "file": "agents/05-security-testing-compliance.md"
+      "id": "manual-testing-agent",
+      "name": "Manual Testing",
+      "description": "Test execution, case design, exploratory testing, bug reporting",
+      "file": "agents/02-manual-testing.md"
     },
     {
       "id": "test-automation-agent",
-      "name": "Test Automation & CI/CD",
-      "description": "Test automation, CI/CD integration, continuous testing, DevOps QA.",
-      "file": "agents/06-test-automation-cicd.md"
+      "name": "Test Automation",
+      "description": "Selenium, Cypress, Playwright, Appium, automation frameworks",
+      "file": "agents/03-test-automation.md"
     },
     {
-      "id": "quality-metrics-agent",
-      "name": "Quality Metrics & Reporting",
-      "description": "Quality metrics, KPIs, dashboards, trend analysis, continuous improvement.",
-      "file": "agents/07-quality-metrics-reporting.md"
+      "id": "api-testing-agent",
+      "name": "API Testing",
+      "description": "REST API, GraphQL, API automation, mock servers, validation",
+      "file": "agents/04-api-testing.md"
+    },
+    {
+      "id": "performance-testing-agent",
+      "name": "Performance Testing",
+      "description": "Load testing, stress testing, profiling, JMeter, k6, optimization",
+      "file": "agents/05-performance-testing.md"
+    },
+    {
+      "id": "cicd-devops-agent",
+      "name": "CI/CD & DevOps",
+      "description": "Pipelines, continuous testing, Jenkins, GitHub Actions, Docker",
+      "file": "agents/06-cicd-devops.md"
+    },
+    {
+      "id": "advanced-qa-agent",
+      "name": "Advanced QA",
+      "description": "Security testing, strategy, metrics, reporting, team management",
+      "file": "agents/07-advanced-qa.md"
     }
   ],
   "commands": [
     {
-      "name": "test-strategy",
-      "description": "QA strategy, planning, coverage approach, test design",
-      "file": "commands/test-strategy.md"
+      "name": "qa-strategy",
+      "description": "QA strategy, planning, approach, test design guidance",
+      "file": "commands/qa-strategy.md"
     },
     {
-      "name": "testing-guide",
-      "description": "Testing frameworks, tools, best practices, implementation guides",
-      "file": "commands/testing-guide.md"
+      "name": "qa-tools",
+      "description": "Testing tools, frameworks, technology selection guide",
+      "file": "commands/qa-tools.md"
     },
     {
       "name": "qa-project",
-      "description": "20+ QA projects: automation, strategy, continuous testing",
+      "description": "25+ hands-on QA projects by skill level",
       "file": "commands/qa-project.md"
     },
     {
-      "name": "quality-metrics",
-      "description": "Quality metrics, KPIs, measurement strategies, dashboards",
-      "file": "commands/quality-metrics.md"
+      "name": "qa-roadmap",
+      "description": "Complete QA Engineer learning roadmap",
+      "file": "commands/qa-roadmap.md"
     }
   ],
   "skills": [
     {
-      "id": "unit-testing",
-      "name": "Unit Testing Frameworks",
-      "file": "skills/unit-testing/SKILL.md"
+      "id": "qa-fundamentals",
+      "name": "QA Fundamentals",
+      "file": "skills/fundamentals/SKILL.md"
     },
     {
-      "id": "api-testing",
-      "name": "API Testing & Validation",
-      "file": "skills/api-testing/SKILL.md"
+      "id": "test-design",
+      "name": "Test Case Design",
+      "file": "skills/fundamentals/test-design.md"
     },
     {
-      "id": "e2e-testing",
-      "name": "E2E Testing Automation",
-      "file": "skills/e2e-testing/SKILL.md"
+      "id": "bug-management",
+      "name": "Bug Management",
+      "file": "skills/fundamentals/bug-management.md"
     },
     {
-      "id": "performance-testing",
-      "name": "Performance & Load Testing",
-      "file": "skills/performance-testing/SKILL.md"
+      "id": "manual-testing",
+      "name": "Manual Testing",
+      "file": "skills/manual-testing/SKILL.md"
     },
     {
-      "id": "security-testing",
-      "name": "Security Testing & OWASP",
-      "file": "skills/security-testing/SKILL.md"
+      "id": "exploratory-testing",
+      "name": "Exploratory Testing",
+      "file": "skills/manual-testing/exploratory-testing.md"
     },
     {
-      "id": "test-automation",
-      "name": "Test Automation & CI/CD",
+      "id": "selenium-automation",
+      "name": "Selenium Automation",
       "file": "skills/test-automation/SKILL.md"
     },
     {
-      "id": "quality-metrics",
-      "name": "Quality Metrics & Reporting",
-      "file": "skills/quality-metrics/SKILL.md"
+      "id": "cypress-playwright",
+      "name": "Cypress & Playwright",
+      "file": "skills/test-automation/cypress-playwright.md"
+    },
+    {
+      "id": "mobile-automation",
+      "name": "Mobile Testing",
+      "file": "skills/test-automation/mobile-automation.md"
+    },
+    {
+      "id": "rest-api-testing",
+      "name": "REST API Testing",
+      "file": "skills/api-testing/SKILL.md"
+    },
+    {
+      "id": "graphql-testing",
+      "name": "GraphQL Testing",
+      "file": "skills/api-testing/graphql-testing.md"
+    },
+    {
+      "id": "load-testing",
+      "name": "Load Testing",
+      "file": "skills/performance-testing/SKILL.md"
+    },
+    {
+      "id": "performance-profiling",
+      "name": "Performance Profiling",
+      "file": "skills/performance-testing/profiling.md"
+    },
+    {
+      "id": "cicd-integration",
+      "name": "CI/CD Integration",
+      "file": "skills/cicd-devops/SKILL.md"
+    },
+    {
+      "id": "continuous-testing",
+      "name": "Continuous Testing",
+      "file": "skills/cicd-devops/continuous-testing.md"
+    },
+    {
+      "id": "security-testing",
+      "name": "Security Testing",
+      "file": "skills/advanced/SKILL.md"
+    },
+    {
+      "id": "qa-metrics",
+      "name": "QA Metrics",
+      "file": "skills/advanced/metrics-reporting.md"
     }
   ],
   "hooks": {
-    "onInit": "hooks/init-hook.sh",
-    "onCommand": "hooks/command-hook.sh"
+    "onInit": "hooks/init.sh",
+    "onCommand": "hooks/command.sh"
   },
-  "categories": [
-    "qa",
-    "testing",
-    "automation",
-    "quality"
-  ]
+  "categories": ["qa", "testing", "automation", "learning"]
 }

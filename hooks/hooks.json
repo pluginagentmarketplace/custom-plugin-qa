@@ -4,15 +4,7 @@
     "enabled": true
   },
   "onCommand": {
-    "description": "Track QA command usage and validate inputs",
-    "enabled": true
-  },
-  "beforeAgentCall": {
-    "description": "Prepare agent context for QA guidance",
-    "enabled": true
-  },
-  "afterAgentCall": {
-    "description": "Log agent responses and update QA metrics",
+    "description": "Track QA command usage",
     "enabled": true
   }
 }
