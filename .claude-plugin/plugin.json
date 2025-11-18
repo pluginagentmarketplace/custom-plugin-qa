@@ -2,165 +2,200 @@
   "name": "Custom Plugin QA",
   "version": "1.0.0",
   "id": "claude-plugin-qa",
-  "description": "QA Engineer Learning & Practice Plugin: 7 agents, 16 skills, test automation, API testing, performance testing, CI/CD, 25+ projects.",
+  "description": "Complete QA Engineer learning & practice platform. 7 specialized agents, 20+ comprehensive skills, test automation, API testing, CI/CD integration, security testing, advanced QA metrics. Master modern QA practices.",
   "author": "Claude Code QA Team",
   "license": "MIT",
-  "keywords": ["qa", "testing", "automation", "api-testing", "performance", "cicd"],
+  "keywords": [
+    "qa",
+    "quality-assurance",
+    "testing",
+    "test-automation",
+    "api-testing",
+    "performance-testing",
+    "cicd",
+    "learning"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/pluginagentmarketplace/custom-plugin-qa.git"
   },
   "agents": [
     {
-      "id": "qa-fundamentals-agent",
-      "name": "QA Fundamentals",
-      "description": "Test types, methodologies, planning, design, metrics, best practices",
+      "id": "qa-fundamentals",
+      "name": "QA Fundamentals & Mindset",
+      "description": "Software development, QA mindset, testing types, quality assurance principles, SDLC",
       "file": "agents/01-qa-fundamentals.md"
     },
     {
-      "id": "manual-testing-agent",
-      "name": "Manual Testing",
-      "description": "Test execution, case design, exploratory testing, bug reporting",
-      "file": "agents/02-manual-testing.md"
+      "id": "test-strategy",
+      "name": "Test Strategy & Planning",
+      "description": "Test planning, strategy, coverage analysis, test design techniques, test prioritization",
+      "file": "agents/02-test-strategy-planning.md"
     },
     {
-      "id": "test-automation-agent",
-      "name": "Test Automation",
-      "description": "Selenium, Cypress, Playwright, Appium, automation frameworks",
-      "file": "agents/03-test-automation.md"
+      "id": "manual-testing",
+      "name": "Manual & Exploratory Testing",
+      "description": "Manual test execution, exploratory testing, test cases, bug reporting, test documentation",
+      "file": "agents/03-manual-exploratory-testing.md"
     },
     {
-      "id": "api-testing-agent",
-      "name": "API Testing",
-      "description": "REST API, GraphQL, API automation, mock servers, validation",
-      "file": "agents/04-api-testing.md"
+      "id": "test-automation",
+      "name": "Test Automation Frameworks",
+      "description": "Selenium, Cypress, Playwright, Appium, test automation architecture, automation best practices",
+      "file": "agents/04-test-automation-frameworks.md"
     },
     {
-      "id": "performance-testing-agent",
-      "name": "Performance Testing",
-      "description": "Load testing, stress testing, profiling, JMeter, k6, optimization",
-      "file": "agents/05-performance-testing.md"
+      "id": "api-performance",
+      "name": "API & Performance Testing",
+      "description": "REST/GraphQL API testing, API automation, performance testing, load testing, JMeter, k6",
+      "file": "agents/05-api-performance-testing.md"
     },
     {
-      "id": "cicd-devops-agent",
-      "name": "CI/CD & DevOps",
-      "description": "Pipelines, continuous testing, Jenkins, GitHub Actions, Docker",
-      "file": "agents/06-cicd-devops.md"
+      "id": "cicd-infrastructure",
+      "name": "CI/CD & Test Infrastructure",
+      "description": "CI/CD pipelines, continuous testing, Jenkins, GitHub Actions, Docker, test infrastructure",
+      "file": "agents/06-cicd-infrastructure.md"
     },
     {
-      "id": "advanced-qa-agent",
-      "name": "Advanced QA",
-      "description": "Security testing, strategy, metrics, reporting, team management",
-      "file": "agents/07-advanced-qa.md"
+      "id": "advanced-qa",
+      "name": "Advanced QA & Leadership",
+      "description": "Security testing, QA metrics & reporting, team leadership, process improvement, compliance",
+      "file": "agents/07-advanced-qa-leadership.md"
     }
   ],
   "commands": [
     {
-      "name": "qa-strategy",
-      "description": "QA strategy, planning, approach, test design guidance",
-      "file": "commands/qa-strategy.md"
-    },
-    {
-      "name": "qa-tools",
-      "description": "Testing tools, frameworks, technology selection guide",
-      "file": "commands/qa-tools.md"
-    },
-    {
-      "name": "qa-project",
-      "description": "25+ hands-on QA projects by skill level",
-      "file": "commands/qa-project.md"
+      "name": "qa-path",
+      "description": "Choose your QA learning path based on skill level",
+      "file": "commands/qa-learning-path.md"
     },
     {
       "name": "qa-roadmap",
-      "description": "Complete QA Engineer learning roadmap",
+      "description": "View complete QA Engineer career roadmap and progression",
       "file": "commands/qa-roadmap.md"
+    },
+    {
+      "name": "qa-tools",
+      "description": "Explore QA tools, frameworks, and technology selection guide",
+      "file": "commands/qa-tools-frameworks.md"
+    },
+    {
+      "name": "qa-projects",
+      "description": "Browse 30+ hands-on QA projects by difficulty and topic",
+      "file": "commands/qa-projects.md"
     }
   ],
   "skills": [
     {
-      "id": "qa-fundamentals",
-      "name": "QA Fundamentals",
-      "file": "skills/fundamentals/SKILL.md"
+      "id": "qa-basics",
+      "name": "QA Fundamentals & Testing Types",
+      "file": "skills/01-qa-basics.md"
+    },
+    {
+      "id": "software-development",
+      "name": "Software Development Lifecycle",
+      "file": "skills/02-sdlc-qa.md"
+    },
+    {
+      "id": "testing-mindset",
+      "name": "QA Mindset & Quality Principles",
+      "file": "skills/03-qa-mindset.md"
+    },
+    {
+      "id": "test-planning",
+      "name": "Test Planning & Strategy",
+      "file": "skills/04-test-planning.md"
     },
     {
       "id": "test-design",
-      "name": "Test Case Design",
-      "file": "skills/fundamentals/test-design.md"
+      "name": "Test Case Design Techniques",
+      "file": "skills/05-test-design-techniques.md"
     },
     {
-      "id": "bug-management",
-      "name": "Bug Management",
-      "file": "skills/fundamentals/bug-management.md"
+      "id": "coverage-analysis",
+      "name": "Test Coverage & Risk Analysis",
+      "file": "skills/06-coverage-analysis.md"
     },
     {
-      "id": "manual-testing",
-      "name": "Manual Testing",
-      "file": "skills/manual-testing/SKILL.md"
+      "id": "manual-execution",
+      "name": "Manual Test Execution",
+      "file": "skills/07-manual-testing.md"
     },
     {
       "id": "exploratory-testing",
       "name": "Exploratory Testing",
-      "file": "skills/manual-testing/exploratory-testing.md"
+      "file": "skills/08-exploratory-testing.md"
     },
     {
       "id": "selenium-automation",
-      "name": "Selenium Automation",
-      "file": "skills/test-automation/SKILL.md"
+      "name": "Selenium WebDriver Automation",
+      "file": "skills/09-selenium-webdriver.md"
     },
     {
       "id": "cypress-playwright",
       "name": "Cypress & Playwright",
-      "file": "skills/test-automation/cypress-playwright.md"
+      "file": "skills/10-cypress-playwright.md"
     },
     {
       "id": "mobile-automation",
-      "name": "Mobile Testing",
-      "file": "skills/test-automation/mobile-automation.md"
+      "name": "Mobile Automation with Appium",
+      "file": "skills/11-mobile-appium.md"
     },
     {
       "id": "rest-api-testing",
       "name": "REST API Testing",
-      "file": "skills/api-testing/SKILL.md"
+      "file": "skills/12-rest-api-testing.md"
     },
     {
       "id": "graphql-testing",
-      "name": "GraphQL Testing",
-      "file": "skills/api-testing/graphql-testing.md"
+      "name": "GraphQL API Testing",
+      "file": "skills/13-graphql-testing.md"
     },
     {
-      "id": "load-testing",
-      "name": "Load Testing",
-      "file": "skills/performance-testing/SKILL.md"
+      "id": "performance-testing",
+      "name": "Performance & Load Testing",
+      "file": "skills/14-performance-load-testing.md"
     },
     {
-      "id": "performance-profiling",
-      "name": "Performance Profiling",
-      "file": "skills/performance-testing/profiling.md"
+      "id": "cicd-pipelines",
+      "name": "CI/CD Pipeline Implementation",
+      "file": "skills/15-cicd-pipelines.md"
     },
     {
-      "id": "cicd-integration",
-      "name": "CI/CD Integration",
-      "file": "skills/cicd-devops/SKILL.md"
+      "id": "docker-testing",
+      "name": "Docker & Containerized Testing",
+      "file": "skills/16-docker-testing.md"
     },
     {
       "id": "continuous-testing",
-      "name": "Continuous Testing",
-      "file": "skills/cicd-devops/continuous-testing.md"
+      "name": "Continuous Testing Practices",
+      "file": "skills/17-continuous-testing.md"
     },
     {
       "id": "security-testing",
-      "name": "Security Testing",
-      "file": "skills/advanced/SKILL.md"
+      "name": "Security Testing & OWASP",
+      "file": "skills/18-security-testing.md"
     },
     {
       "id": "qa-metrics",
-      "name": "QA Metrics",
-      "file": "skills/advanced/metrics-reporting.md"
+      "name": "QA Metrics & Reporting",
+      "file": "skills/19-qa-metrics-reporting.md"
+    },
+    {
+      "id": "qa-leadership",
+      "name": "QA Team Leadership",
+      "file": "skills/20-qa-leadership.md"
     }
   ],
   "hooks": {
     "onInit": "hooks/init.sh",
     "onCommand": "hooks/command.sh"
   },
-  "categories": ["qa", "testing", "automation", "learning"]
+  "categories": [
+    "qa",
+    "testing",
+    "automation",
+    "learning",
+    "career-development"
+  ]
 }

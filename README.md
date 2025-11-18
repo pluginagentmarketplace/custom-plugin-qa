@@ -1,77 +1,71 @@
 # Custom Plugin QA
 
-🚀 **QA Engineer Learning & Practice Plugin**
+🚀 **Complete QA Engineer Learning & Practice Platform**
 
-7 specialized agents, 16 skills, test automation, API testing, performance testing, CI/CD integration, 25+ hands-on projects.
+Master quality assurance with 7 specialized agents, 20+ comprehensive skills, 30+ hands-on projects, and complete career roadmap.
 
 ## Quick Start
 
 ```bash
-/qa-strategy       # QA planning guidance
-/qa-tools          # Tool selection
-/qa-project        # 25+ projects
-/qa-roadmap        # Learning path
+/qa-path       # Choose learning path
+/qa-roadmap    # View complete roadmap
+/qa-tools      # Explore tools & frameworks
+/qa-projects   # Browse 30+ projects
 ```
 
-## 7 QA Agents
+## 7 Specialized Agents
 
-1. **QA Fundamentals** - Test types, methodology, planning
-2. **Manual Testing** - Execution, design, exploration
-3. **Test Automation** - Selenium, Cypress, Playwright, Appium
-4. **API Testing** - REST, GraphQL, automation
-5. **Performance Testing** - Load, stress, profiling
-6. **CI/CD & DevOps** - Pipelines, continuous testing
-7. **Advanced QA** - Security, metrics, team management
+1. **QA Fundamentals & Mindset** - Foundation knowledge
+2. **Test Strategy & Planning** - Strategic approach
+3. **Manual & Exploratory Testing** - Hands-on QA
+4. **Test Automation Frameworks** - Selenium, Cypress, Playwright, Appium
+5. **API & Performance Testing** - Backend & performance
+6. **CI/CD & Test Infrastructure** - DevOps QA
+7. **Advanced QA & Leadership** - Expert topics
 
-## 16 Skills
+## 20 Comprehensive Skills
 
-✅ QA Fundamentals & Methodologies
-✅ Test Case Design & Planning
-✅ Bug Management & Reporting
-✅ Manual Testing Execution
+✅ QA Fundamentals
+✅ SDLC & QA Integration
+✅ QA Mindset
+✅ Test Planning
+✅ Test Design
+✅ Coverage Analysis
+✅ Manual Testing
 ✅ Exploratory Testing
-✅ Selenium & WebDriver
+✅ Selenium
 ✅ Cypress & Playwright
-✅ Mobile Testing (Appium)
+✅ Mobile Testing
 ✅ REST API Testing
-✅ GraphQL API Testing
-✅ Load & Performance Testing
-✅ Performance Profiling
-✅ CI/CD Pipeline Integration
-✅ Continuous Testing Practices
-✅ Security Testing & OWASP
-✅ QA Metrics & Reporting
+✅ GraphQL Testing
+✅ Performance Testing
+✅ CI/CD Pipelines
+✅ Docker Testing
+✅ Continuous Testing
+✅ Security Testing
+✅ QA Metrics
+✅ QA Leadership
 
-## Learning Path
+## Learning Timeline
 
-**Beginner** (4-6 weeks)
-- QA Fundamentals
-- Manual Testing
-- Test Design
+**Total: 6 months to full mastery**
 
-**Intermediate** (6-8 weeks)
-- Test Automation
-- API Testing
-- Basic Performance
+- Beginner: 4-6 weeks
+- Intermediate: 6-8 weeks
+- Advanced: 8-10 weeks
+- Expert: Ongoing growth
 
-**Advanced** (6-8 weeks)
-- Advanced Frameworks
-- Full CI/CD
-- Security & Metrics
+## 30+ Projects
 
-**Expert** (4-6 weeks)
-- Leadership
-- Advanced Topics
-- Process Design
+From basic test case design to enterprise QA systems.
 
-**Total: 6-12 months**
+## Features
 
-## 25+ Projects
+✅ Comprehensive content
+✅ Modern tools & frameworks
+✅ Hands-on projects
+✅ Career progression
+✅ Best practices
+✅ Team leadership
 
-From manual testing basics to advanced QA frameworks.
-
-## License
-
-MIT
-
-Ready to master QA? Start with `/qa-strategy`! 🎯
+Ready to master QA? Start with `/qa-path`! 🎯

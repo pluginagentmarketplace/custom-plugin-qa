@@ -1,62 +1,56 @@
-# QA Engineer Roadmap
+# QA Engineer Complete Roadmap
 
-Complete learning path from beginner to expert QA Engineer.
+Your complete path from beginner to expert QA Engineer.
 
-## Phase 1: Foundations (4-6 weeks)
+## Phase 1: Foundations (4 weeks)
 
-**Topics**
-- QA fundamentals & methodologies
-- Test types & approaches
-- Test case design
-- Bug reporting
+- QA Fundamentals
+- Testing Types  
+- SDLC Understanding
+- QA Mindset
 
-**Projects**: 1-2
-**Time**: 40-60 hours
+## Phase 2: Test Design (3 weeks)
 
-## Phase 2: Manual Testing (2-4 weeks)
+- Test Planning
+- Test Design Techniques
+- Coverage Analysis
+- Test Case Design
 
-**Topics**
-- Manual test execution
-- Exploratory testing
-- Test documentation
-- Regression testing
+## Phase 3: Manual Testing (2 weeks)
 
-**Projects**: 3-5
-**Time**: 20-40 hours
+- Manual Test Execution
+- Exploratory Testing
+- Bug Reporting
+- Test Documentation
 
-## Phase 3: Test Automation (6-8 weeks)
+## Phase 4: Test Automation (6 weeks)
 
-**Topics**
 - Selenium WebDriver
 - Cypress & Playwright
-- Mobile testing (Appium)
-- Test frameworks
+- Mobile Automation (Appium)
+- Automation Frameworks
 
-**Projects**: 6-10
-**Time**: 60-80 hours
+## Phase 5: API & Performance (4 weeks)
 
-## Phase 4: Advanced Testing (6-8 weeks)
+- REST API Testing
+- GraphQL Testing
+- Performance Testing (JMeter, k6)
+- Load Testing
 
-**Topics**
-- API testing (REST & GraphQL)
-- Performance testing (JMeter, k6)
-- Security testing (OWASP)
-- CI/CD integration
+## Phase 6: CI/CD & Infrastructure (3 weeks)
 
-**Projects**: 11-18
-**Time**: 60-80 hours
+- CI/CD Pipelines
+- Docker & Containers
+- Continuous Testing
+- Test Infrastructure
 
-## Phase 5: Expert (4-6 weeks)
+## Phase 7: Advanced Topics (4 weeks)
 
-**Topics**
-- Advanced frameworks
-- Metrics & reporting
-- Team leadership
-- Process improvement
+- Security Testing & OWASP
+- QA Metrics & Reporting
+- Team Leadership
+- Process Improvement
 
-**Projects**: 19-25
-**Time**: 40-60 hours
+**Total: 6 months for complete mastery**
 
-## Total: 6-12 months, 220-320 hours
-
-Use `/qa-strategy` to plan your path!
+Use `/qa-path` to choose your level!
