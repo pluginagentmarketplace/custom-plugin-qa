@@ -1,127 +1,126 @@
 {
-  "name": "Full Stack Developer Roadmap Plugin",
+  "name": "Custom Plugin QA System",
   "version": "1.0.0",
-  "id": "claude-plugin-fullstack-developer",
-  "description": "Comprehensive Full Stack Development learning and project management plugin with 7 specialized agents covering frontend, backend, databases, DevOps, architecture, testing, and security.",
-  "author": "Claude Code Marketplace",
+  "id": "claude-plugin-custom-qa",
+  "description": "Enterprise QA testing plugin. 7 agents, 7 skills, test automation, quality strategies, performance/security testing, 20+ projects.",
+  "author": "Claude Code QA Team",
   "license": "MIT",
   "keywords": [
-    "fullstack",
-    "web-development",
-    "frontend",
-    "backend",
-    "devops",
-    "architecture",
+    "qa",
     "testing",
-    "security",
-    "learning-path",
-    "hands-on-projects"
+    "automation",
+    "quality-assurance",
+    "test-frameworks",
+    "e2e-testing",
+    "api-testing",
+    "performance-testing",
+    "security-testing"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pluginagentmarketplace/claude-plugin-fullstack-developer.git"
+    "url": "https://github.com/pluginagentmarketplace/custom-plugin-qa.git"
   },
   "agents": [
     {
-      "id": "frontend-dev-agent",
-      "name": "Frontend Development Agent",
-      "description": "Expert in modern frontend technologies including React, Vue, Angular, Next.js, HTML, CSS, JavaScript, TypeScript, and responsive design.",
-      "file": "agents/01-frontend-development.md"
+      "id": "test-strategy-agent",
+      "name": "Test Strategy & Planning",
+      "description": "Test planning, coverage analysis, test case design, QA strategy, and quality assurance methodologies.",
+      "file": "agents/01-test-strategy-planning.md"
     },
     {
-      "id": "backend-dev-agent",
-      "name": "Backend Development Agent",
-      "description": "Specializes in server-side development with Node.js, Express, Python, Java, RESTful APIs, GraphQL, and microservices architecture.",
-      "file": "agents/02-backend-development.md"
+      "id": "unit-testing-agent",
+      "name": "Unit Testing & Frameworks",
+      "description": "Jest, Vitest, Pytest. Mocking, fixtures, code coverage, TDD.",
+      "file": "agents/02-unit-testing-frameworks.md"
     },
     {
-      "id": "database-agent",
-      "name": "Database & Data Structures Agent",
-      "description": "Expert in SQL databases, NoSQL solutions, Redis caching, data modeling, query optimization, and big data concepts.",
-      "file": "agents/03-database-data.md"
+      "id": "integration-e2e-agent",
+      "name": "Integration & E2E Testing",
+      "description": "API testing, integration testing, E2E (Cypress, Playwright), test automation.",
+      "file": "agents/03-integration-e2e-testing.md"
     },
     {
-      "id": "devops-agent",
-      "name": "DevOps & Infrastructure Agent",
-      "description": "Specializes in Docker, Kubernetes, CI/CD pipelines, cloud platforms (AWS, GCP, Azure), monitoring, and infrastructure automation.",
-      "file": "agents/04-devops-infrastructure.md"
+      "id": "performance-agent",
+      "name": "Performance & Load Testing",
+      "description": "Load testing, stress testing, performance benchmarking, scalability validation.",
+      "file": "agents/04-performance-load-testing.md"
     },
     {
-      "id": "architecture-agent",
-      "name": "System Design & Architecture Agent",
-      "description": "Expert in system architecture, design patterns, scalability, high availability, and enterprise-level solution design.",
-      "file": "agents/05-architecture-design.md"
+      "id": "security-testing-agent",
+      "name": "Security Testing & Compliance",
+      "description": "Security testing, vulnerability scanning, OWASP, compliance testing.",
+      "file": "agents/05-security-testing-compliance.md"
     },
     {
-      "id": "testing-agent",
-      "name": "Testing & Quality Assurance Agent",
-      "description": "Covers unit testing, integration testing, E2E testing, performance testing, test automation, and quality metrics.",
-      "file": "agents/06-testing-quality.md"
+      "id": "test-automation-agent",
+      "name": "Test Automation & CI/CD",
+      "description": "Test automation, CI/CD integration, continuous testing, DevOps QA.",
+      "file": "agents/06-test-automation-cicd.md"
     },
     {
-      "id": "security-agent",
-      "name": "Security & Best Practices Agent",
-      "description": "Focuses on application security, authentication, authorization, data protection, compliance, and security best practices.",
-      "file": "agents/07-security-practices.md"
+      "id": "quality-metrics-agent",
+      "name": "Quality Metrics & Reporting",
+      "description": "Quality metrics, KPIs, dashboards, trend analysis, continuous improvement.",
+      "file": "agents/07-quality-metrics-reporting.md"
     }
   ],
   "commands": [
     {
-      "name": "learn",
-      "description": "Start a personalized learning path for Full Stack Development",
-      "file": "commands/learn.md"
+      "name": "test-strategy",
+      "description": "QA strategy, planning, coverage approach, test design",
+      "file": "commands/test-strategy.md"
     },
     {
-      "name": "roadmap",
-      "description": "View complete Full Stack Developer roadmap with interactive learning paths",
-      "file": "commands/roadmap.md"
+      "name": "testing-guide",
+      "description": "Testing frameworks, tools, best practices, implementation guides",
+      "file": "commands/testing-guide.md"
     },
     {
-      "name": "project",
-      "description": "Browse and start hands-on projects categorized by skill level",
-      "file": "commands/project.md"
+      "name": "qa-project",
+      "description": "20+ QA projects: automation, strategy, continuous testing",
+      "file": "commands/qa-project.md"
     },
     {
-      "name": "assess",
-      "description": "Evaluate your skills and get personalized recommendations",
-      "file": "commands/assess.md"
+      "name": "quality-metrics",
+      "description": "Quality metrics, KPIs, measurement strategies, dashboards",
+      "file": "commands/quality-metrics.md"
     }
   ],
   "skills": [
     {
-      "id": "react-mastery",
-      "name": "React & Modern JavaScript",
-      "file": "skills/frontend/SKILL.md"
+      "id": "unit-testing",
+      "name": "Unit Testing Frameworks",
+      "file": "skills/unit-testing/SKILL.md"
     },
     {
-      "id": "nodejs-express",
-      "name": "Node.js & Express.js",
-      "file": "skills/backend/SKILL.md"
+      "id": "api-testing",
+      "name": "API Testing & Validation",
+      "file": "skills/api-testing/SKILL.md"
     },
     {
-      "id": "sql-nosql",
-      "name": "SQL & NoSQL Databases",
-      "file": "skills/database/SKILL.md"
+      "id": "e2e-testing",
+      "name": "E2E Testing Automation",
+      "file": "skills/e2e-testing/SKILL.md"
     },
     {
-      "id": "docker-kubernetes",
-      "name": "Docker & Kubernetes",
-      "file": "skills/devops/SKILL.md"
+      "id": "performance-testing",
+      "name": "Performance & Load Testing",
+      "file": "skills/performance-testing/SKILL.md"
     },
     {
-      "id": "system-design",
-      "name": "System Architecture & Design",
-      "file": "skills/architecture/SKILL.md"
+      "id": "security-testing",
+      "name": "Security Testing & OWASP",
+      "file": "skills/security-testing/SKILL.md"
     },
     {
-      "id": "testing-frameworks",
-      "name": "Testing Frameworks & Practices",
-      "file": "skills/testing/SKILL.md"
+      "id": "test-automation",
+      "name": "Test Automation & CI/CD",
+      "file": "skills/test-automation/SKILL.md"
     },
     {
-      "id": "security-protocols",
-      "name": "Security & Authentication",
-      "file": "skills/security/SKILL.md"
+      "id": "quality-metrics",
+      "name": "Quality Metrics & Reporting",
+      "file": "skills/quality-metrics/SKILL.md"
     }
   ],
   "hooks": {
@@ -129,12 +128,9 @@
     "onCommand": "hooks/command-hook.sh"
   },
   "categories": [
-    "learning",
-    "development",
-    "fullstack",
-    "enterprise"
-  ],
-  "requirements": {
-    "claudeCodeVersion": "1.0.0"
-  }
+    "qa",
+    "testing",
+    "automation",
+    "quality"
+  ]
 }

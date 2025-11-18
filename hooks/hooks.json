@@ -1,26 +1,18 @@
 {
   "onInit": {
-    "description": "Initialize plugin and load configurations",
+    "description": "Initialize QA plugin and load configurations",
     "enabled": true
   },
   "onCommand": {
-    "description": "Track command usage and validate inputs",
+    "description": "Track QA command usage and validate inputs",
     "enabled": true
   },
   "beforeAgentCall": {
-    "description": "Prepare agent context and load relevant skills",
+    "description": "Prepare agent context for QA guidance",
     "enabled": true
   },
   "afterAgentCall": {
-    "description": "Log agent responses and update progress",
-    "enabled": true
-  },
-  "onSkillInvoke": {
-    "description": "Track skill usage and performance",
-    "enabled": true
-  },
-  "onProjectCreate": {
-    "description": "Initialize project tracking and logging",
+    "description": "Log agent responses and update QA metrics",
     "enabled": true
   }
 }
