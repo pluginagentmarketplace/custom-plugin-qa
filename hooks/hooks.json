@@ -1,0 +1,10 @@
+{
+  "onInit": {
+    "description": "Initialize QA plugin",
+    "enabled": true
+  },
+  "onCommand": {
+    "description": "Track QA command execution",
+    "enabled": true
+  }
+}
