@@ -1,64 +1,18 @@
 {
-  "name": "qa-development-assistant",
-  "version": "2.0.0",
-  "description": "Comprehensive QA plugin with 7 agents and 20 skills covering test automation, API testing, performance testing, CI/CD, and security testing",
+  "name": "custom-plugin-qa",
+  "version": "1.0.0",
+  "description": "QA and testing mastery plugin",
   "author": {
-    "name": "Dr. Umit Kacar & Muhsin Elcicek",
-    "email": "kacarumit.phd@gmail.com",
-    "url": "https://github.com/pluginagentmarketplace"
+    "name": "Plugin Agent Marketplace"
   },
-  "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-qa",
-  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-qa",
-  "license": "SEE LICENSE IN LICENSE",
-  "keywords": [
-    "qa",
-    "quality-assurance",
-    "testing",
-    "test-automation",
-    "selenium",
-    "cypress",
-    "playwright",
-    "api-testing",
-    "performance-testing",
-    "claude-code",
-    "plugin"
-  ],
   "agents": [
-    "./agents/01-qa-fundamentals.md",
-    "./agents/02-test-strategy-planning.md",
-    "./agents/03-manual-exploratory-testing.md",
-    "./agents/04-test-automation-frameworks.md",
-    "./agents/05-api-performance-testing.md",
-    "./agents/06-cicd-infrastructure.md",
-    "./agents/07-advanced-qa-leadership.md"
+    "./agents/qa-expert.md"
   ],
   "skills": [
-    "./skills/01-qa-basics/SKILL.md",
-    "./skills/02-sdlc-qa/SKILL.md",
-    "./skills/03-qa-mindset/SKILL.md",
-    "./skills/04-test-planning/SKILL.md",
-    "./skills/05-test-design-techniques/SKILL.md",
-    "./skills/06-coverage-analysis/SKILL.md",
-    "./skills/07-manual-testing/SKILL.md",
-    "./skills/08-exploratory-testing/SKILL.md",
-    "./skills/09-selenium-webdriver/SKILL.md",
-    "./skills/10-cypress-playwright/SKILL.md",
-    "./skills/11-mobile-appium/SKILL.md",
-    "./skills/12-rest-api-testing/SKILL.md",
-    "./skills/13-graphql-testing/SKILL.md",
-    "./skills/14-performance-load-testing/SKILL.md",
-    "./skills/15-cicd-pipelines/SKILL.md",
-    "./skills/16-docker-testing/SKILL.md",
-    "./skills/17-continuous-testing/SKILL.md",
-    "./skills/18-security-testing/SKILL.md",
-    "./skills/19-qa-metrics-reporting/SKILL.md",
-    "./skills/20-qa-leadership/SKILL.md"
+    "./skills/test-strategy/SKILL.md",
+    "./skills/automation/SKILL.md",
+    "./skills/performance/SKILL.md",
+    "./skills/security/SKILL.md"
   ],
-  "commands": [
-    "./commands/qa-learning-path.md",
-    "./commands/qa-roadmap.md",
-    "./commands/qa-tools-frameworks.md",
-    "./commands/qa-projects.md"
-  ],
-  "hooks": "./hooks/hooks.json"
+  "license": "SEE LICENSE IN LICENSE"
 }

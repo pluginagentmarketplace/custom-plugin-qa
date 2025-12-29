@@ -1,3 +1,9 @@
+---
+name: qa-tools-frameworks
+description: QA Tools & Frameworks Guide
+allowed-tools: Read
+---
+
 # QA Tools & Frameworks Guide
 
 Explore and select the right tools for your testing needs.

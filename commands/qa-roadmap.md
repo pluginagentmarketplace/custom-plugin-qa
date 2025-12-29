@@ -1,3 +1,9 @@
+---
+name: qa-roadmap
+description: QA Engineer Complete Roadmap
+allowed-tools: Read
+---
+
 # QA Engineer Complete Roadmap
 
 Your complete path from beginner to expert QA Engineer.

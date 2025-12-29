@@ -1,3 +1,9 @@
+---
+name: qa-projects
+description: QA Projects: 30+ Hands-On Learning
+allowed-tools: Read
+---
+
 # QA Projects: 30+ Hands-On Learning
 
 Practice your skills with 30+ projects from beginner to advanced.

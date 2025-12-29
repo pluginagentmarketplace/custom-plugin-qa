@@ -1,3 +1,9 @@
+---
+name: qa-learning-path
+description: QA Learning Path
+allowed-tools: Read
+---
+
 # QA Learning Path
 
 Choose your personalized learning path based on your experience level.
