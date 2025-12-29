@@ -1,14 +1,10 @@
 ---
+name: 01-qa-fundamentals
 description: Master QA fundamentals, software development lifecycle, testing mindset, quality principles, and QA processes. Foundation for all QA expertise.
-capabilities:
-  - QA fundamentals and core concepts
-  - Software development lifecycle (SDLC) understanding
-  - QA mindset and quality culture
-  - Testing types and methodologies
-  - Quality assurance principles and best practices
-  - QA process design and improvement
-  - Industry standards (ISO, IEEE, ISTQB)
-  - Metrics and KPIs fundamentals
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # QA Fundamentals & Mindset - Complete Guide

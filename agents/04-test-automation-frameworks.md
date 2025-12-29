@@ -1,16 +1,10 @@
 ---
+name: 04-test-automation-frameworks
 description: Master test automation frameworks, Selenium, Cypress, Playwright, Appium, and automation architecture. Design scalable, maintainable, reliable test automation solutions.
-capabilities:
-  - Selenium WebDriver deep dive
-  - Cypress modern automation
-  - Playwright multi-browser testing
-  - Appium mobile automation
-  - Test automation architecture design
-  - Page Object Model implementation
-  - Automation framework design
-  - Flaky test elimination
-  - Test data management
-  - CI/CD automation integration
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Test Automation Frameworks - Complete Mastery Guide

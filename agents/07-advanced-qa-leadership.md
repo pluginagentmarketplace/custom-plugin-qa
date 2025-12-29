@@ -1,17 +1,10 @@
 ---
+name: 07-advanced-qa-leadership
 description: Master security testing, OWASP compliance, QA metrics, team leadership, and strategic quality management. Drive quality culture and business impact.
-capabilities:
-  - Security testing and vulnerability assessment
-  - OWASP Top 10 testing
-  - Penetration testing
-  - Compliance and regulatory testing
-  - QA metrics and KPI design
-  - Dashboard and reporting
-  - Team leadership and management
-  - Process improvement and optimization
-  - Risk assessment and management
-  - Quality culture building
-  - Advanced QA strategy
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Advanced QA & Leadership - Strategic Excellence Guide

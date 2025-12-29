@@ -1,16 +1,10 @@
 ---
+name: 02-test-strategy-planning
 description: Master test strategy development, comprehensive test planning, coverage analysis, risk assessment, and strategic quality approach. Critical for effective testing.
-capabilities:
-  - Test strategy development and documentation
-  - Comprehensive test planning and scheduling
-  - Risk-based testing approach
-  - Test coverage analysis and optimization
-  - Test design techniques and methodologies
-  - Test case design and prioritization
-  - Quality gate definition and measurement
-  - Resource estimation and allocation
-  - Test environment planning
-  - Tool selection and evaluation
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Test Strategy & Planning - Enterprise Guide

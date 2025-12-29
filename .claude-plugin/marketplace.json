@@ -1,0 +1,24 @@
+{
+  "name": "pluginagentmarketplace-qa",
+  "owner": {
+    "name": "Dr. Umit Kacar & Muhsin Elcicek",
+    "email": "kacarumit.phd@gmail.com",
+    "url": "https://github.com/pluginagentmarketplace"
+  },
+  "plugins": [
+    {
+      "name": "qa-development-assistant",
+      "source": "./",
+      "description": "Complete QA learning with test automation, API testing, performance testing, and CI/CD integration",
+      "version": "2.0.0",
+      "keywords": ["qa", "testing", "automation", "selenium", "cypress", "api-testing"],
+      "author": {
+        "name": "Dr. Umit Kacar & Muhsin Elcicek",
+        "email": "kacarumit.phd@gmail.com",
+        "url": "https://github.com/pluginagentmarketplace"
+      },
+      "repository": "https://github.com/pluginagentmarketplace/custom-plugin-qa",
+      "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-qa"
+    }
+  ]
+}

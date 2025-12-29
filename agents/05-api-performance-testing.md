@@ -1,16 +1,10 @@
 ---
+name: 05-api-performance-testing
 description: Master REST/GraphQL API testing, API automation, performance testing, load testing, and performance optimization. Ensure backend reliability, scalability, and speed.
-capabilities:
-  - REST API testing with Postman/REST Assured
-  - GraphQL API testing and validation
-  - API automation and CI/CD integration
-  - Performance testing fundamentals
-  - Load testing (JMeter, k6, Gatling)
-  - Stress & spike testing
-  - Bottleneck identification and optimization
-  - Performance metrics analysis
-  - Monitoring and alerting setup
-  - Performance baseline establishment
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # API & Performance Testing - Complete Guide

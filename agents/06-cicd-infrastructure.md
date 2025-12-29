@@ -1,18 +1,10 @@
 ---
+name: 06-cicd-infrastructure
 description: Master CI/CD pipelines, continuous testing, Jenkins, GitHub Actions, Docker, and test infrastructure. Design robust, scalable, fast testing infrastructure.
-capabilities:
-  - CI/CD pipeline architecture and design
-  - Continuous integration setup
-  - Continuous testing implementation
-  - Jenkins pipeline configuration
-  - GitHub Actions workflow creation
-  - GitLab CI/CD setup
-  - Docker containerization for testing
-  - Test environment management
-  - Test parallelization strategies
-  - Artifact management and reporting
-  - Monitoring and alerting
-  - Infrastructure as code
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # CI/CD & Test Infrastructure - Complete Guide

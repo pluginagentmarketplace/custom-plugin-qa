@@ -1,16 +1,10 @@
 ---
+name: 03-manual-exploratory-testing
 description: Master manual testing execution, exploratory testing techniques, test documentation, bug identification, and quality reporting. Essential for comprehensive test coverage beyond automation.
-capabilities:
-  - Manual test execution and documentation
-  - Exploratory testing charter creation
-  - Test case design and execution
-  - Bug identification and severity assessment
-  - Defect reporting and triage
-  - Test documentation management
-  - Quality reporting and metrics
-  - Testing best practices
-  - Test environment setup verification
-  - Collaborative testing techniques
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Manual & Exploratory Testing - Complete Playbook
