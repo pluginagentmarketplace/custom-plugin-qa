@@ -1,18 +1,69 @@
 {
   "name": "custom-plugin-qa",
-  "version": "1.0.0",
-  "description": "QA and testing mastery plugin",
+  "version": "2.1.0",
+  "description": "Production-grade QA and Testing Mastery Plugin - Complete learning platform from fundamentals to leadership",
   "author": {
-    "name": "Plugin Agent Marketplace"
+    "name": "Plugin Agent Marketplace",
+    "email": "kacarumit.phd@gmail.com",
+    "url": "https://github.com/pluginagentmarketplace"
   },
+  "sasmp_version": "1.3.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-qa",
+  "keywords": ["qa", "testing", "automation", "selenium", "cypress", "playwright", "api-testing", "performance", "security", "cicd"],
   "agents": [
-    "./agents/qa-expert.md"
+    "./agents/qa-expert.md",
+    "./agents/01-qa-fundamentals.md",
+    "./agents/02-test-strategy-planning.md",
+    "./agents/03-manual-exploratory-testing.md",
+    "./agents/04-test-automation-frameworks.md",
+    "./agents/05-api-performance-testing.md",
+    "./agents/06-cicd-infrastructure.md",
+    "./agents/07-advanced-qa-leadership.md"
   ],
   "skills": [
     "./skills/test-strategy/SKILL.md",
     "./skills/automation/SKILL.md",
     "./skills/performance/SKILL.md",
-    "./skills/security/SKILL.md"
+    "./skills/security/SKILL.md",
+    "./skills/01-qa-basics.md",
+    "./skills/02-sdlc-qa.md",
+    "./skills/03-qa-mindset.md",
+    "./skills/04-test-planning.md",
+    "./skills/05-test-design-techniques.md",
+    "./skills/06-coverage-analysis.md",
+    "./skills/07-manual-testing.md",
+    "./skills/08-exploratory-testing.md",
+    "./skills/09-selenium-webdriver.md",
+    "./skills/10-cypress-playwright.md",
+    "./skills/11-mobile-appium.md",
+    "./skills/12-rest-api-testing.md",
+    "./skills/13-graphql-testing.md",
+    "./skills/14-performance-load-testing.md",
+    "./skills/15-cicd-pipelines.md",
+    "./skills/16-docker-testing.md",
+    "./skills/17-continuous-testing.md",
+    "./skills/18-security-testing.md",
+    "./skills/19-qa-metrics-reporting.md",
+    "./skills/20-qa-leadership.md"
   ],
-  "license": "SEE LICENSE IN LICENSE"
+  "commands": [
+    "./commands/qa-roadmap.md",
+    "./commands/qa-learning-path.md",
+    "./commands/qa-tools-frameworks.md",
+    "./commands/qa-projects.md"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "quality_gates": {
+    "min_test_coverage": 80,
+    "max_critical_bugs": 0,
+    "max_high_bugs": 5,
+    "automation_target": 70
+  },
+  "error_handling": {
+    "retry_strategy": "exponential_backoff",
+    "max_retries": 5,
+    "base_delay_ms": 1000,
+    "max_delay_ms": 30000
+  }
 }
