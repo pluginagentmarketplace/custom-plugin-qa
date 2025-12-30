@@ -1,3 +1,211 @@
 {
-  "hooks": {}
+  "version": "2.1.0",
+  "sasmp_version": "1.3.0",
+  "hooks": {
+    "pre_invoke": {
+      "enabled": true,
+      "actions": [
+        {
+          "name": "validate_input",
+          "description": "Validate input against schema before agent/skill invocation",
+          "type": "validation",
+          "config": {
+            "strict_mode": true,
+            "log_validation_errors": true
+          }
+        },
+        {
+          "name": "check_rate_limit",
+          "description": "Check rate limits before processing request",
+          "type": "rate_limit",
+          "config": {
+            "max_requests_per_minute": 60,
+            "max_requests_per_hour": 1000
+          }
+        },
+        {
+          "name": "log_request",
+          "description": "Log incoming request metadata",
+          "type": "logging",
+          "config": {
+            "include_timestamp": true,
+            "include_user_context": true,
+            "include_request_id": true
+          }
+        }
+      ]
+    },
+    "post_invoke": {
+      "enabled": true,
+      "actions": [
+        {
+          "name": "log_response",
+          "description": "Log response metadata and metrics",
+          "type": "logging",
+          "config": {
+            "include_duration_ms": true,
+            "include_status": true,
+            "include_quality_score": true
+          }
+        },
+        {
+          "name": "check_quality_gates",
+          "description": "Verify response meets quality gates",
+          "type": "quality_gate",
+          "config": {
+            "min_confidence_score": 0.7,
+            "min_completeness": 0.8,
+            "require_next_steps": true
+          }
+        },
+        {
+          "name": "update_metrics",
+          "description": "Update usage and performance metrics",
+          "type": "metrics",
+          "config": {
+            "track_invocation_count": true,
+            "track_response_time": true,
+            "track_error_rate": true
+          }
+        }
+      ]
+    },
+    "on_error": {
+      "enabled": true,
+      "actions": [
+        {
+          "name": "log_error",
+          "description": "Log error details for debugging",
+          "type": "logging",
+          "config": {
+            "include_stack_trace": true,
+            "include_context": true,
+            "severity_levels": ["error", "critical"]
+          }
+        },
+        {
+          "name": "trigger_retry",
+          "description": "Trigger retry for transient errors",
+          "type": "retry",
+          "config": {
+            "strategy": "exponential_backoff",
+            "max_retries": 5,
+            "base_delay_ms": 1000,
+            "max_delay_ms": 30000,
+            "jitter": true,
+            "retryable_errors": [
+              "TIMEOUT",
+              "RATE_LIMIT",
+              "NETWORK_ERROR",
+              "TEMPORARY_UNAVAILABLE"
+            ]
+          }
+        },
+        {
+          "name": "fallback_handler",
+          "description": "Handle permanent errors with fallback",
+          "type": "fallback",
+          "config": {
+            "return_partial_response": true,
+            "suggest_alternatives": true,
+            "escalate_critical": true
+          }
+        }
+      ]
+    },
+    "on_agent_change": {
+      "enabled": true,
+      "actions": [
+        {
+          "name": "log_routing",
+          "description": "Log agent routing decisions",
+          "type": "logging",
+          "config": {
+            "include_confidence_score": true,
+            "include_routing_reason": true
+          }
+        },
+        {
+          "name": "transfer_context",
+          "description": "Transfer context between agents",
+          "type": "context_transfer",
+          "config": {
+            "preserve_user_context": true,
+            "preserve_session_state": true
+          }
+        }
+      ]
+    }
+  },
+  "quality_gates": {
+    "code_coverage": {
+      "min_threshold": 80,
+      "warn_threshold": 70,
+      "target": 85
+    },
+    "test_pass_rate": {
+      "min_threshold": 95,
+      "warn_threshold": 90,
+      "target": 98
+    },
+    "defect_escape_rate": {
+      "max_threshold": 1.0,
+      "warn_threshold": 0.5,
+      "target": 0.1
+    },
+    "automation_coverage": {
+      "min_threshold": 70,
+      "warn_threshold": 60,
+      "target": 80
+    },
+    "response_quality": {
+      "min_confidence": 0.7,
+      "min_completeness": 0.8,
+      "require_actionable_items": true
+    }
+  },
+  "error_recovery": {
+    "retry_policy": {
+      "strategy": "exponential_backoff",
+      "max_retries": 5,
+      "base_delay_ms": 1000,
+      "max_delay_ms": 30000,
+      "jitter_enabled": true,
+      "jitter_range_ms": 500
+    },
+    "fallback_chain": [
+      "retry_with_backoff",
+      "route_to_fallback_agent",
+      "return_partial_response",
+      "log_and_escalate"
+    ],
+    "circuit_breaker": {
+      "enabled": true,
+      "failure_threshold": 5,
+      "reset_timeout_ms": 60000
+    }
+  },
+  "observability": {
+    "logging": {
+      "level": "info",
+      "format": "json",
+      "include_metadata": true
+    },
+    "metrics": {
+      "enabled": true,
+      "collection_interval_ms": 60000,
+      "tracked_metrics": [
+        "invocation_count",
+        "response_time_ms",
+        "error_rate",
+        "quality_score",
+        "agent_routing_distribution"
+      ]
+    },
+    "tracing": {
+      "enabled": true,
+      "sample_rate": 1.0,
+      "propagate_context": true
+    }
+  }
 }

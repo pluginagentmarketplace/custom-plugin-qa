@@ -7,6 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.0] - 2025-12-30
+
+### Added
+- Production-grade orchestrator agent (qa-expert.md) with multi-agent routing
+- Input/Output JSON schemas for all skills
+- Error handling with exponential backoff retry logic
+- Comprehensive hooks.json with pre/post invoke, error handling
+- Quality gates configuration in plugin.json
+- Troubleshooting sections for all major components
+- Agent capabilities matrix for intelligent routing
+- Observability and metrics tracking configuration
+
+### Changed
+- All 4 structured skills upgraded to production-grade:
+  - automation/SKILL.md: Full Selenium/Cypress/Playwright coverage
+  - performance/SKILL.md: k6/JMeter load testing patterns
+  - security/SKILL.md: OWASP Top 10 2021 compliance
+  - test-strategy/SKILL.md: Risk-based testing & quality gates
+- plugin.json now registers all 8 agents and 24 skills
+- qa-roadmap.md enhanced with success criteria and exit gates
+- hooks.json upgraded from empty to full observability stack
+- Version bump from 2.0.0 to 2.1.0
+
+### Technical Improvements
+- Exponential backoff with jitter for retry logic
+- Circuit breaker pattern for error recovery
+- Progressive disclosure for skill loading
+- Hierarchical agent architecture
+
+---
+
 ## [2.0.0] - 2025-12-28
 
 ### Added
