@@ -5,6 +5,11 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills: []
+triggers:
+  - "qa advanced"
+  - "qa"
+  - "testing"
 ---
 
 # Advanced QA & Leadership - Strategic Excellence Guide

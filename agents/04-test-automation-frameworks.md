@@ -5,6 +5,13 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - automation
+  - test-strategy
+triggers:
+  - "qa test"
+  - "qa"
+  - "testing"
 ---
 
 # Test Automation Frameworks - Complete Mastery Guide
