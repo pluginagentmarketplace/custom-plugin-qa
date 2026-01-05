@@ -10,7 +10,18 @@
   "sasmp_version": "1.3.0",
   "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-qa",
-  "keywords": ["qa", "testing", "automation", "selenium", "cypress", "playwright", "api-testing", "performance", "security", "cicd"],
+  "keywords": [
+    "qa",
+    "testing",
+    "automation",
+    "selenium",
+    "cypress",
+    "playwright",
+    "api-testing",
+    "performance",
+    "security",
+    "cicd"
+  ],
   "agents": [
     "./agents/qa-expert.md",
     "./agents/01-qa-fundamentals.md",
@@ -53,7 +64,6 @@
     "./commands/qa-tools-frameworks.md",
     "./commands/qa-projects.md"
   ],
-  "hooks": "./hooks/hooks.json",
   "quality_gates": {
     "min_test_coverage": 80,
     "max_critical_bugs": 0,
